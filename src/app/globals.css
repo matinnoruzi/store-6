@@ -1,0 +1,69 @@
+@import 'tailwindcss';
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: Arial, Helvetica, sans-serif;
+}
+body.dark {
+  background-color: #000;
+}
+.menu-bar{
+  animation : ani 0.2s 
+}
+
+@keyframes ani{
+  0% {opacity : 0 ; transform : translateX(100%) } 
+  100% {opacity : 1 ; transform : translateX(0) }
+}
+
+.rtl {
+  direction: rtl;
+}
+
+.swiper .swiper-button-next,
+.swiper .swiper-button-prev{
+ color: rgb(88, 190, 114);
+ filter:drop-shadow(0 2px 3px rgba(0, 0, 0, 0.3)) ;
+}
+input {
+  background-color: white;
+}
+
+.nextC , .prevC {
+  color: rgb(23, 138, 90);
+  cursor: pointer;
+}
+.activeC{
+  color: rgb(30, 168, 134);
+}
+.disableC{
+  color: rgb(45, 224, 180);
+}
+.linkC{
+  cursor: pointer;
+}
+.dark *{
+  color: #c7c5c5;
+  background-color: #171717;
+}
+html.dark .matindark {
+  background-color: #706b6b;
+}
+html.dark .matindark div , html.dark .matindark span ,  html.dark .matindark p , html.dark .matindark h2{
+  background-color: #706b6b;
+}
+html.dark .matindarknav {
+  background-color: #706b6b;
+
+}
+html.dark .matindarkfooter div , html.dark .matindarkfooter p ,html.dark .matindarkfooter a ,html.dark .matindarkfooter h3 {
+ background: none;
+background-color: #706b6b;
+ border: none;
+}

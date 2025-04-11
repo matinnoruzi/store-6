@@ -1,0 +1,156 @@
+{
+  "products": [
+    {
+      "id": "1",
+      "name": "آیفون 14",
+      "title": " آیفون 14 ",
+      "description": " گوشی با دوربین 108 مگاپیکسل و رم 16 ",
+      "image": "./mobiles/mobile-1.png",
+      "price": 57000000,
+      "priceTakhfif": null,
+      "category": "iphone"
+    },
+    {
+      "id": "2",
+      "name": "آیفون 15",
+      "title": " آیفون 15 ",
+      "description": " گوشی با دوربین 118 مگاپیکسل و رم 16 ",
+      "image": "./mobiles/mobile-2.png",
+      "price": 60000000,
+      "priceTakhfif": null,
+      "category": "iphone"
+    },
+    {
+      "id": "3",
+      "name": "آیفون 16",
+      "title": "آیفون 16",
+      "description": " گوشی با دوربین 128 مگاپیکسل و رم 16 ",
+      "image": "./mobiles/mobile-3.png",
+      "price": 67000000,
+      "priceTakhfif": 10700000,
+      "category": "iphone"
+    },
+    {
+      "id": "4",
+      "name": "آیفون 17",
+      "title": " آیفون 17 ",
+      "description": " گوشی با دوربین 138 مگاپیکسل و رم 16 ایفون 17",
+      "image": "./mobiles/mobile-4.png",
+      "price": 77000000,
+      "priceTakhfif": 10700000,
+      "category": "iphone"
+    },
+    {
+      "id": "5",
+      "name": "سامسونگ اس 22",
+      "title": "سامسونگ اس 22 ",
+      "description": " گوشی با دوربین 138 مگاپیکسل و رم 16 ",
+      "image": "./mobiles/mobile-5.png",
+      "price": 87000000,
+      "priceTakhfif": 10700000,
+      "category": "samsung"
+    },
+    {
+      "id": "6",
+      "name": "سامسونگ اس 23",
+      "title": "samsung23 ",
+      "description": " گوشی با دوربین 138 مگاپیکسل و رم 16 ",
+      "image": "./mobiles/mobile-6.png",
+      "price": 97000000,
+      "priceTakhfif": 10700000,
+      "category": "samsung"
+    },
+    {
+      "id": "7",
+      "name": "سامسونگ اس 24",
+      "title": "سامسونگ اس 24 ",
+      "description": " گوشی با دوربین 138 مگاپیکسل و رم 16 ",
+      "image": "./mobiles/mobile-7.png",
+      "price": 107000000,
+      "priceTakhfif": 10700000,
+      "category": "samsung"
+    },
+    {
+      "id": "8",
+      "name": "سامسونگ اس 20",
+      "title": "سامسونگ اس 20 ",
+      "description": " گوشی با دوربین 138 مگاپیکسل و رم 16 ",
+      "image": "./mobiles/mobile-7.png",
+      "price": 207000000,
+      "priceTakhfif": null,
+      "category": "samsung"
+    },
+    {
+      "id": "9",
+      "name": "سامسونگ اس 27",
+      "title": "سامسونگ اس 27 ",
+      "description": " گوشی با دوربین 138 مگاپیکسل و رم 16 ",
+      "image": "./mobiles/mobile-7.png",
+      "price": 207000000,
+      "priceTakhfif": null,
+      "category": "samsung"
+    }
+  ],
+  "login": [
+    {
+      "id": "1bcc",
+      "username": "matin",
+      "password": "Matin1",
+      "age": 33
+    },
+    {
+      "id": "c83c",
+      "username": "matin",
+      "password": "Matin1",
+      "age": 33
+    },
+    {
+      "id": "37b4",
+      "username": "matin",
+      "password": "Matin1",
+      "age": 22
+    },
+    {
+      "id": "ad0e",
+      "username": "matin",
+      "password": "Matin1",
+      "age": 22
+    },
+    {
+      "id": "4897",
+      "username": "matin",
+      "password": "Matin1",
+      "age": 22
+    },
+    {
+      "id": "6f0c",
+      "username": "matin",
+      "password": "Matin1",
+      "age": 22
+    },
+    {
+      "id": "c89b",
+      "username": "matin",
+      "password": "Matin1",
+      "age": 22
+    },
+    {
+      "id": "485e",
+      "username": "matin",
+      "password": "Matin1",
+      "age": 22
+    },
+    {
+      "id": "aca3",
+      "username": "matin",
+      "password": "Matin1",
+      "age": 22
+    },
+    {
+      "id": "94f1",
+      "username": "matin",
+      "password": "Matin1",
+      "age": 22
+    }
+  ]
+}
