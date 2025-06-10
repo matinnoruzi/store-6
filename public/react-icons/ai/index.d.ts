@@ -127,7 +127,7 @@ export declare const AiFillInteraction: IconType;
 export declare const AiFillLayout: IconType;
 export declare const AiFillLeftCircle: IconType;
 export declare const AiFillLeftSquare: IconType;
-export declare const AiFillLike: IconType;
+export declare const AiFillLike: IconType; 
 export declare const AiFillLinkedin: IconType;
 export declare const AiFillLock: IconType;
 export declare const AiFillMacCommand: IconType;

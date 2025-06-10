@@ -17,8 +17,8 @@ function Search() {
     return (
         <div className="flex flex-col">
 
-            <input onChange={(e) => setSearch(e.target.value)} type="text" placeholder='جست و جو...' />
-            <button onClick={handleSearch} className='bg-emerald-200 text-white p-2'>ssssssss</button>
+            <input className="rtl bg-slate-100 rounded p-2" onChange={(e) => setSearch(e.target.value)} type="text" placeholder='جست و جو...' />
+            <button onClick={handleSearch} className='bg-emerald-200 rounded p-2'>اعمال جست و جو</button>
         </div>
     )
 }

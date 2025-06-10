@@ -5,7 +5,7 @@ function Loading() {
         <div className='flex items-center justify-center h-screen bg-emerald-50'>
             <svg className='w-24 h-24 text-emerald-700'
                 viewBox='0 0 50 50'
-                animate-spin
+                
                 >
                 <circle
                     className='opacity-25'

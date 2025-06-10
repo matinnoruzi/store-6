@@ -6,7 +6,7 @@ interface IContainer {
 
 function Container({ children }: IContainer) {
     return (
-        <div className='container mx-auto'>
+        <div className=' mx-auto '>
             {children}
         </div>
     )

@@ -1,4 +1,6 @@
-@import 'tailwindcss';
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
 :root {
   --background: #ffffff;
@@ -67,3 +69,12 @@ html.dark .matindarkfooter div , html.dark .matindarkfooter p ,html.dark .matind
 background-color: #706b6b;
  border: none;
 }
+
+html.dark .matindarki , html.dark .matindarki img {
+background : none ;
+}
+
+html.dark .matininfo , html.dark .matininfo div , html.dark .matininfo button {
+  background-color: #706b6b;
+}
+

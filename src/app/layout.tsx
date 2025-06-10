@@ -19,13 +19,11 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning >
       <body >
-        {/* <Providers> */}
           <ContextBase>
             <Navbar />
             {children}
-            <Footer />
           </ContextBase>
-        {/* </Providers> */}
+          <Footer />
       </body>
     </html>
   );

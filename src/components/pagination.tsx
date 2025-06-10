@@ -5,9 +5,7 @@ import ReactPaginate from 'react-paginate'
 
 function Pagination({ pages }: { pages: number }) {
 
-
     const router = useRouter()
-
 
     const handlePageCkick = (e: { selected: number }) => {
         const page = e.selected + 1
@@ -17,7 +15,7 @@ function Pagination({ pages }: { pages: number }) {
     return (
         <div>
             <div className='flex justify-center items-center'>
-                <ReactPaginate className='flex  mt-60 gap-4 font-bold bg-emerald-100 rounded p-4 shadow '
+                <ReactPaginate className='flex mt-60 gap-4 font-bold bg-emerald-100 rounded p-4 shadow '
                     nextLabel=">"
                     onPageChange={handlePageCkick}
                     pageRangeDisplayed={5}
@@ -29,7 +27,6 @@ function Pagination({ pages }: { pages: number }) {
                     activeClassName='activeC'
                     disabledClassName='disableC'
                     pageLinkClassName='linkC'
-
                 />
             </div>
 
